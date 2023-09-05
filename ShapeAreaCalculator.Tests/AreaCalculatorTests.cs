@@ -58,6 +58,9 @@ namespace ShapeAreaCalculator.Tests
         [TestCase(new double[] { 1, 2, 10 })]
         [TestCase(new double[] { -3, -4, -5 })]
         [TestCase(new double[] { -2 })]
+        [TestCase(new double[] { 4, 8, 15, 16 })]
+        [TestCase(new double[] { 23, 42 })]
+        [TestCase(new double[] { })]
         public void IncorrectInputTest(double[] args)
         {
             // Act & Assert

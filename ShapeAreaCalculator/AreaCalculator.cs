@@ -12,7 +12,7 @@ namespace ShapeAreaCalculator
             {
                 1 => new Circle(args[0]),
                 3 => new Triangle(args[0], args[1], args[2]),
-                _ => _shape
+                _ => throw new ArgumentException("Incorrect input.")
             };
 
             return _shape.Area;
