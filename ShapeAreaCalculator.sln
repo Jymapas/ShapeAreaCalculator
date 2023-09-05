@@ -10,6 +10,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeAreaCalculator.Tests",
 		{15736E7B-49E6-4A23-B32E-E791CB5CC3DE} = {15736E7B-49E6-4A23-B32E-E791CB5CC3DE}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseTask", "DatabaseTask", "{7A329BD5-2820-4550-A106-BAEC50ECA5A1}"
+	ProjectSection(SolutionItems) = preProject
+		ProductsAndCategories.sql = ProductsAndCategories.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
